@@ -1,0 +1,103 @@
+.title{
+    margin-left: 80px;
+    padding-top: 110px;
+    font-family: monospace;
+   
+}
+
+.Question1{
+  color: #482602;
+}
+
+.Question h1{
+margin-left: 40%;
+}
+.Question p{
+    margin-left: 40%;
+}
+hr{
+    width: 85%;
+}
+
+.answersFromCommunity{
+    padding: 10px 0;
+}
+
+.userAnswer{
+    display: flex;
+    gap: 120px;
+    border-bottom: 1px solid black;
+    width: 85%;
+}
+.circle{
+    margin-top: 10px;
+}
+
+.userAnswer h2{
+    margin-left: 9px;
+}
+
+.userAnswer div h4 {
+margin-top: -45px;
+}
+
+.answer{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    margin: 0 15%;
+    margin-top: 100px;
+    padding: 20px 0;
+    background-color: whitesmoke;
+}
+.answer_public_question{
+    text-align: center;
+}
+.answer_public_question .link{
+    text-decoration: none;
+    color: black;
+}
+.answer_public_question .link:hover{
+    text-decoration: underline;
+    color: chocolate;
+}
+.answer_form{
+width: 94%;
+margin-left: 10px;
+
+}
+.answer_form input{
+border-radius: 10px;
+}
+.answer_form textarea {
+    width: 98%;
+}
+.answer_form textarea{
+border-radius: 10px;
+padding: 10px;
+}
+
+.answer_container{
+    border-radius: 2px;
+    box-shadow: rgba(170, 174, 197, 0.2) 2px 1px 1px inset;
+    background-color: rgb(245, 245, 245);
+    padding-left: 25px;
+    max-height: 300px;
+    overflow: hidden scroll;
+}
+.btn{
+    background-color: #0B5ED7;border-radius: 5px;
+    width: 160px;
+}
+.btn:hover{
+    background-color: chocolate;
+}
+@media screen and (max-width: 700px) {
+    .answer{
+        width: 400px;
+        height: 300px;
+    }
+    .answer_form{
+    width: 350px;
+    margin: auto;
+}
+    
+}

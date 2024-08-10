@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    padding-top: 40px;
+    gap: 30px;
+
+}
+
+.all_container{
+    background-image: url("../img/bg-svg-f.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    margin-bottom: 50px;
+    height: 100vh;
+    width: 100vw;
+}
+.register{
+
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;   
+    padding: 15px 30px 25px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    width: 400px;
+    /* height: 400px; */
+    height: auto;
+    min-height: 400px;
+    margin-left: 100px;
+}
+.register h2{
+    color: #212529;
+    padding: 0 0 8px;
+}
+
+.user_register1{
+    text-align: center;
+}
+.user_register1 p{
+    margin-top: 15px;
+    padding: 0px 10px;
+    font-size: 0.9rem;
+}
+.link{
+    color: #FF8806;
+    text-decoration: none;
+}
+.link:hover{
+    color: #FF8806;
+    text-decoration: underline;
+}
+.firstLastName{
+    display: flex;
+    gap: 5px;
+    /* padding-left: 4px; */
+    width: 100%;
+   
+}
+
+
+.lastName{
+    margin-right: -20px;
+}
+input, button{
+    padding: 15px 15px;
+    width: 100%;
+    /* height: 40px; */
+    border-radius: 5px;
+    border: 0.5px solid rgb(202, 202, 202);
+    /* border: 1px solid gray; */
+    padding-left: 5px;
+    margin-top: 15px
+}
+button{
+    width: 100%;
+    background-color: #0B5ED7;
+    color: white;
+}
+.howitworks{
+    width: 500px;
+    /* margin-top: 50px; */
+}
+.howitworks p{
+    margin-top: 0 0 16px;
+    margin-bottom: 1rem;
+    font-size: 16px;
+    line-height: 25px;
+}
+.howitworks h1{
+    margin-bottom: 25px;
+}
+.howitworks .link{
+    text-decoration: none;
+}
+.howitworks .link:hover{
+    text-decoration: underline;
+}
+.forgotPassword{
+	
+    display: block;
+	margin-bottom: 20px;
+    text-decoration: none;
+    color: #FF8806;
+    text-align:right;
+    margin-top: 15px;
+
+}
+.forgotPassword:hover{
+    text-decoration: underline;
+}
+.button {
+    background-color: rgb(81, 108, 240);
+    color: white;
+    /* font-size: larger; */
+    font-size: 1rem;
+    width: 100;
+    border: none;
+        
+}
+.button:hover {
+	background-color:  #FF8806;
+}
+
+.howitworks .button{
+    background-color:  #FF8806;
+    /* padding: 5px 15px; */
+    width: 30%;
+}
+/* h2{
+    color: #212529;
+} */
+@media screen and (max-width: 700px) {
+    .howitworks{
+        display: none;
+    }
+    .register{
+        margin: 70px auto;
+        width: 290px;
+        height: 460px;
+    }
+    .firstLastName{
+    display: block;
+    margin-left: -3px;
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
